@@ -71,7 +71,7 @@ class About extends React.Component {
             if (item.index === 0) {
               return (
                 <SettingRow>
-                  <KeyField> Listen 1 版本</KeyField>
+                  <KeyField> More听 版本</KeyField>
                   <ValueField>v{packageJson.version}</ValueField>
                 </SettingRow>
               );

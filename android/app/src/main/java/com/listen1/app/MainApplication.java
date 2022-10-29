@@ -3,6 +3,8 @@ package com.listen1.app;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.swmansion.rnscreens.RNScreensPackage;
+import com.reactnativecommunity.toolbarandroid.ReactToolbarPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.tanguyantoine.react.MusicControl;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -30,6 +32,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNScreensPackage(),
+            new ReactToolbarPackage(),
             new AsyncStoragePackage(),
             new MusicControl(),
             new VectorIconsPackage(),

@@ -97,7 +97,7 @@ class Setting extends React.Component {
               return (
                 <TableCellRow
                   onPress={this.onPressAbout}
-                  title="关于 Listen 1"
+                  title="关于 More听"
                 />
               );
             }
